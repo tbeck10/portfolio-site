@@ -1,0 +1,50 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Archivo Narrow", sans-serif;
+  background-color: #fff;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media only screen and (min-width: 1090px) {
+  .container {
+    max-width: 1090px;
+  }
+}
+
+/* Navigation */
+
+.navbar-brand {
+  padding-right: 4rem;
+  font-weight: bold;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  text-decoration: underline;
+}
