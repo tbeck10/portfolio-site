@@ -48,3 +48,60 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
   text-decoration: underline;
 }
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 57.875rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 11.85rem 0;
+  text-align: center;
+  color: #fff;
+  background-image: url(../images/tree-banner.jpg);
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+}
+
+/*.main-roles {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}*/
+
+.jumbo-box {
+  height: 18rem;
+}
+
+.jumbo-box h1 {
+  padding-top: 5.5rem;
+}
+
+.project-manager h1 {
+  padding-top: 4.5rem;
+}
+
+.project-manager {
+  background-color: rgba(0, 162, 89, 0.75);
+}
+
+.designer {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.developer {
+  background-color: rgba(116, 42, 131, 0.75);
+}
+
+.writer {
+  background-color: rgba(218, 56, 50, 0.75);
+}
+
+.jumbotron .btn {
+  margin-top: 12rem;
+  font-size: 2rem;
+  border: 3px solid #fff;
+}
