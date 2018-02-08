@@ -9,10 +9,6 @@ body {
   background-color: #fff;
 }
 
-a {
-  cursor: pointer;
-}
-
 .strong {
   font-weight: bold;
 }
@@ -36,7 +32,9 @@ a {
 /* Navigation */
 
 .navbar-brand {
-  padding-right: 4rem;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 3rem;
+  padding: 3rem;
   font-weight: bold;
 }
 
@@ -51,6 +49,12 @@ a {
 
 .navbar-default .navbar-nav>li>a:hover {
   text-decoration: underline;
+}
+
+.navbar-nav {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
 }
 
 /* Jumbotron */
@@ -184,6 +188,11 @@ footer a {
 
 footer i {
   margin-top: 2rem;
+}
+
+footer .text-right {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1rem;
 }
 
 /* Hamburger Icon */
