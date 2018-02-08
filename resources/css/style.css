@@ -160,3 +160,7 @@ body {
   opacity: 1;
   transition: opacity ease-in-out 0.35s;
 }
+
+.sub-text {
+  font-size: 1.5rem;
+}
