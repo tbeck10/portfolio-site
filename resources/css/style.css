@@ -9,6 +9,10 @@ body {
   background-color: #fff;
 }
 
+a {
+  cursor: pointer;
+}
+
 .strong {
   font-weight: bold;
 }
@@ -165,4 +169,26 @@ body {
   font-size: 1.5rem;
 }
 
-/* Graphic Design */
+/* Footer */
+
+footer {
+  height: 6rem;
+  margin-top: 1rem;
+  background-color: #dfe6e9;
+}
+
+footer a {
+  color: #000;
+  padding: 0.5rem;
+}
+
+footer i {
+  margin-top: 2rem;
+}
+
+/* Hamburger Icon */
+
+#nav-toggle {
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+}
