@@ -57,13 +57,22 @@ body {
   padding: 2rem;
 }
 
+@media only screen and (max-width: 425px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .navbar-toggle {
+    margin-top: 2rem;
+  }
+}
+
 /* Jumbotron */
 
 .jumbotron {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 11.85rem 0;
+  padding: 11.85rem 0 7rem 0;
   text-align: center;
   color: #fff;
   background-image: url(../images/tree-banner.jpg);
@@ -110,20 +119,79 @@ body {
   border: 3px solid #fff;
 }
 
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+    padding-bottom: 6rem;
+  }
+  .jumbotron .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .jumbo-box {
+    width: 50%;
+    height: auto;
+  }
+  .jumbo-box h1 {
+    padding: 0;
+  }
+  .jumbotron .btn {
+    margin-top: 7rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .jumbotron h1 {
+    font-size: 1.5rem;
+  }
+  .jumbo-box h1 {
+    padding-bottom: 0.5rem;
+  }
+  .jumbotron .btn {
+    font-size: 1.25rem;
+    margin-top: 5rem;
+  }
+}
+
+
 /* About */
 
 #about {
   background-color: #dfe6e9;
-  padding: 2.5rem;;
+  padding: 2.5rem;
 }
 
 #about p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 0.25rem 0;
 }
 
 .image-tom {
   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-tom {
+    width: 40%;
+  }
+  #about {
+    padding-top: 1rem;
+  }
+  #about .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  #about p {
+    font-size: 1.25rem;
+  }
 }
 
 /* Portfolio */
@@ -173,6 +241,16 @@ body {
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 425px) {
+  #portfolio h2 {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  .small-txt {
+    font-size: 1rem;
+  }
+}
+
 /* Footer */
 
 footer {
@@ -192,7 +270,7 @@ footer i {
 
 footer .text-right {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 /* Hamburger Icon */
