@@ -130,6 +130,13 @@ body {
   padding-bottom: 2rem;
 }
 
+#portfolio .image-container {
+  margin: 2rem 0;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
 .small-txt {
   font-size: 2rem;
   text-transform: lowercase;
@@ -151,5 +158,5 @@ body {
 
 .img-info:hover {
   opacity: 1;
-  transition: ease-in-out;
+  transition: opacity ease-in-out 0.35s;
 }
