@@ -15,6 +15,10 @@ body {
 
 .image-container {
   overflow: hidden;
+  margin: 2rem 0;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #000;
 }
 
 .image-container img {
@@ -237,13 +241,6 @@ body {
   padding-bottom: 2rem;
 }
 
-#portfolio .image-container {
-  margin: 2rem 0;
-  position: relative;
-  display: inline-block;
-  border: 1px solid #000;
-}
-
 .small-txt {
   font-size: 2rem;
   text-transform: lowercase;
@@ -309,4 +306,28 @@ footer .text-right {
 #nav-toggle {
   cursor: pointer;
   padding: 10px 35px 16px 0px;
+}
+
+/* Subpages */
+
+.subpage-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 11.85rem 0 2rem 0;
+  text-align: center;
+}
+
+.subpage-heading span {
+  font-size: 2rem;
+}
+
+.body-text p {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.btn-subpage {
+  text-align: center;
+  padding: 2rem 0;
 }
