@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale1">
+  <title>Thomas R. Beck</title>
+  <!-- Favicon -->
+  <link rel="icon" href="../resources/images/favicon.ico" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Julius+Sans+One" rel="stylesheet">
+  <!-- Reset CSS -->
+  <link href="../resources/css/reset.css" type="text/css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+  <!-- Swipebox -->
+
+  <!-- Custom CSS -->
+  <link href="../resources/css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <a class="navbar-brand" href="../index.html">Thomas R. Beck</a>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./paley-institute.html">Websites</a></li>
+          <li><a href="./howe-marine-surveyors.html">Design</a></li>
+          <li><a href="./colmar-academy.html">Development</a></li>
+          <li><a href="./stature-ebook.html">Writing</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Scroll -->
+
+  <div class="container subpage-heading">
+    <a href="./paley-foundation.html"><i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i></a>
+    <span>Website Projects</span>
+    <a href="./newton-wellesley-primary-care.html"><i class="fa fa-angle-double-right fa-2x" aria-hidden="true"></i></a>
+  </div>
+
+  <!-- Body Text -->
+
+  <div class="container body-text">
+    <h1>Paley Orthopedic & Spine Institute</h1>
+    <p><strong>Brief: </strong>The Paley Orthopedic Spine Institute is a world-renowned center specializing in limb lengthening and the treatment of complex orthopedic deformities. Due to the rarity of the conditions treated at our center, and the unique solutions that we offer, patients come to us from all over the world - 95 countries and all 50 United States. This necessitated a strong online presence to attract the right patients to our center.</p>
+
+    <p><strong>Execution: </strong>In 2014, we began a comprehensive website overhaul. This included writing new content for hundreds of pages, for 50 orthopedic conditions, and a web design strategy to help users find the information they needed. After launch, website traffic rose over 50%. The new content writing has resulted in top Google searches for many of our condition-specific keywords, beating out major competitors like Hospital for Special Surgery, Mayo Clinic, and Cleveland Clinic.</p>
+
+    <p>In addition to the new website, I took over all the Paley Institute social media assets, including Facebook, Twitter, Instagram, LinkedIn, Youtube, and Snapchat. Social media campaigns have grown our online reach over 700%.</p>
+
+    <p>Currently, website and social media referrals comprise over 40% of our new patient referrals.</p>
+
+    <p><strong>Moving Forward:</strong> Last year, we began to expand the practice, adding 5 new physicians and new service lines. This necessitated a rebranding campaign to attract more local patients. We partnered with <a href="http://www.ryanwilliamsagency.com/" target="blank">Ryan Williams Agency</a> who developed a new look and logo for the Paley Institute.</p>
+
+    <p>We are currently in the process of a second website redesign, which should launch in the next few weeks. Check out some of the design comps below!</p>
+
+    <p><strong>Tools: </strong>Adobe Photoshop, Buffer, Google Analytics, Google Search Console, Wordpress, HTML, CSS, Adobe Premiere Pro</p>
+  </div>
+  <div class="btn-subpage">
+    <a class="btn btn-primary btn-lg" href="http://www.paleyinstitute.org/" target="blank">Visit Site</a>
+  </div>
+
+  <!-- Images -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="image-container">
+          <img src="../resources/images/paley-institute.png" />
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="image-container">
+          <img src="../resources/images/paley-institute-2.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="image-container">
+          <img src="../resources/images/paley-institute-3.jpg" />
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="image-container">
+          <img src="../resources/images/paley-institute-4.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="image-container">
+          <img src="../resources/images/paley-institute-5.jpg" />
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="image-container">
+          <img src="../resources/images/paley-institute-6.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+
+  <footer class="page-footer center-on-small-only">
+    <div class="container text-left">
+      <a href="https://github.com/tbeck10"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/thomas-beck-b4bbaa111/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <div class="container-fluid text-right">Copyright &copy; thomasrbeck.com</div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Swipebox -->
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="../resources/js/main.js"></script>
+
+  </body>
+  </html>
